@@ -1,3 +1,7 @@
 div .logo {
   max-width: 200px;
 }
+
+.footer_section {
+  padding: 50px 0;
+}
