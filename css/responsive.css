@@ -2,7 +2,7 @@
 
 /*------------------------------------------------------------------- 991px x 768px ---------------------------------------------------------------------*/
 
-@media only screen and (min-width: 768px) and (max-width: 991px) {
+@media only screen and (min-width: 768px) and (max-width: 992px) {
   .header-search {
     padding: 15px 0px;
   }
@@ -124,7 +124,7 @@
   }
 }
 
-@media (min-width: 991px) and (max-width: 1199px) {
+@media (min-width: 992px) and (max-width: 1200px) {
   #main_slider a.carousel-control-prev {
     top: 95%;
   }
@@ -149,7 +149,7 @@
   }
 }
 
-@media (min-width: 768px) and (max-width: 991px) {
+@media (min-width: 768px) and (max-width: 992px) {
   #main_slider a.carousel-control-prev {
     top: 90%;
   }
@@ -168,6 +168,9 @@
   }
   .navbar-expand-lg .navbar-nav .nav-link {
     text-align: center;
+  }
+  .banner_taital {
+    padding: 20px 0px;
   }
   .banner_section {
     background-size: 100% 100%;
@@ -242,7 +245,7 @@
   }
 }
 
-@media (min-width: 576px) and (max-width: 767px) {
+@media (min-width: 576px) and (max-width: 768px) {
   #main_slider a.carousel-control-prev {
     top: 90%;
   }
@@ -261,6 +264,9 @@
   }
   .navbar-expand-lg .navbar-nav .nav-link {
     text-align: center;
+  }
+  .banner_taital {
+    padding: 20px 0px;
   }
   .banner_section {
     background-size: 100% 100%;
@@ -325,7 +331,7 @@
   }
 }
 
-@media (max-width: 575px) {
+@media (max-width: 576px) {
   #main_slider a.carousel-control-prev {
     top: 90%;
   }
@@ -344,6 +350,9 @@
   }
   .navbar-expand-lg .navbar-nav .nav-link {
     text-align: center;
+  }
+  .banner_taital {
+    padding: 20px 0px;
   }
   .banner_section {
     background-size: 100% 100%;
@@ -407,8 +416,21 @@
     padding-bottom: 50px;
   }
 }
-@media (min-width: 1199px) and (max-width: 1400px) {
+@media (min-width: 1200px) {
+  .banner_taital {
+    padding: 20px 0px;
+  }
   .banner_section {
     background-size: 100% 100%;
+    padding: 50px 0px;
+  }
+  .about_taital_main {
+    padding: 60px 0px;
+  }
+  .mail_section {
+    padding: 23px 20px;
+  }
+  .decorate_text {
+    font-size: 26px;
   }
 }
