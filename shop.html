@@ -9,7 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="viewport" content="initial-scale=1, maximum-scale=1" />
     <!-- site metas -->
-    <title>Services</title>
+    <title>Parduotuvė</title>
     <meta name="keywords" content="" />
     <meta name="description" content="" />
     <meta name="author" content="" />
@@ -98,34 +98,47 @@
             </p>
           </div>
         </div>
-        <div class="services_section_2">
+        <!--serach and filter-->
+        <div class="row justify-content-between pt-5">
+          <!--search-->
+          <div class="col-3">
+            <form id="search-form">
+              <input type="search" id="search-input" placeholder="Prekių paieška..." class="form-control">
+              <button type="submit"><i class="fa fa-search"></i></button>
+            </form>
+          </div>
+          <!--filter-->
+          <div class="col-4">
+            <form id="filter-form">
+              <select name="price" class="custom-select form-control" id="filter-input">
+                <option value="" disabled selected>Rikiuoti pagal kainą:</option>
+                <option value="1">Nuo mažiausios iki didžiausios</option>
+                <option value="2">Nuo didžiausios iki mažiausios</option>
+              </select>
+            </form>
+          </div>
+          
+        </div>
+        <!--serach and filter end-->
+
+        <div class="container services_section_2 pt-3">
           <div class="row">
             <!-- Card -->
             <div class="card col-sm-4">
-              <div class="view zoom overlay">
-                <img
-                  class="img-fluid w-100"
-                  src="images/donna_nua.jpg"
-                  alt="Donna Nua"
-                />
-                <a href="#!">
-                  <div class="mask">
-                    <img class="img-fluid w-100" src="images/donna_nua.jpg" />
-                    <div class="mask rgba-black-slight"></div>
-                  </div>
-                </a>
-              </div>
-
               <div class="card-body text-center">
                 <h5>DONNA NUA</h5>
                 <p class="small text-muted text-uppercase mb-2">
                   Juodojo šokolado tirštumas. Raudonos sodų uogos.
                 </p>
+                <img
+                  class=""
+                  src="images/donna_nua.jpg"
+                  alt="Donna Nua"
+                />
                 <hr />
                 <h6 class="mb-3">
                   <span class="text-grey">€9,99</span>
                 </h6>
-
                 <button type="button" class="btn btn-primary btn-sm mr-1 mb-2">
                   <i class="bi bi-cart-check pr-1 mb-2"></i>Add to cart
                 </button>
@@ -134,22 +147,17 @@
             <!-- Card -->
             <!-- Card -->
             <div class="card col-sm-4">
-              <div class="view overlay">
-                <img
-                  class="img-fluid w-100"
-                  src="images/donna_nua.jpg"
-                  alt="Coffe Donna"
-                />
-                <a href="#!">
-                  <div class="mask rgba-white-slight"></div>
-                </a>
-              </div>
-
               <div class="card-body text-center">
                 <h5>FLORES DE LUZ</h5>
                 <p class="small text-muted text-uppercase mb-2">
                   Pieniškas šokoladas. Gaivios gėlės. Svarainiai.
                 </p>
+
+                <img
+                  class=""
+                  src="images/donna_nua.jpg"
+                  alt="Donna Nua"
+                />
                 <hr />
                 <h6 class="mb-3">
                   <span class="text-grey">€12,99</span>
@@ -163,27 +171,19 @@
             <!-- Card -->
             <!-- Card -->
             <div class="card col-sm-4">
-              <div class="view zoom overlay">
-                <img
-                  class="img-fluid w-100"
-                  src="images/donna_nua.jpg"
-                  alt="Donna Nua"
-                />
-                <a href="#!">
-                  <div class="mask">
-                    <img class="img-fluid w-100" src="images/donna_nua.jpg" />
-                    <div class="mask rgba-black-slight"></div>
-                  </div>
-                </a>
-              </div>
-
               <div class="card-body text-center">
                 <h5>IMMORTELLE</h5>
                 <p class="small text-muted text-uppercase mb-2">
                   Vengriškos slyvos. Kvapnus tabakas. Apelsinų žievelės.
                 </p>
-                <hr />
+
                 <h6 class="mb-3">
+                  <img
+                  class=""
+                  src="images/donna_nua.jpg"
+                  alt="Donna Nua"
+                />
+                <hr />
                   <span class="text-grey">€11,99</span>
                 </h6>
 
@@ -195,25 +195,16 @@
             <!-- Card -->
             <!-- Card -->
             <div class="card col-sm-4">
-              <div class="view zoom overlay">
-                <img
-                  class="img-fluid w-100"
-                  src="images/donna_nua.jpg"
-                  alt="Donna Nua"
-                />
-                <a href="#!">
-                  <div class="mask">
-                    <img class="img-fluid w-100" src="images/donna_nua.jpg" />
-                    <div class="mask rgba-black-slight"></div>
-                  </div>
-                </a>
-              </div>
-
               <div class="card-body text-center">
                 <h5>PRIMROSE</h5>
                 <p class="small text-muted text-uppercase mb-2">
                   Sviestiniai sausainiai. Vanilė. Šilko lengvumas.
                 </p>
+                <img
+                  class=""
+                  src="images/donna_nua.jpg"
+                  alt="Donna Nua"
+                />
                 <hr />
                 <h6 class="mb-3">
                   <span class="text-grey">€10,00</span>
@@ -227,25 +218,16 @@
             <!-- Card -->
             <!-- Card -->
             <div class="card col-sm-4">
-              <div class="view zoom overlay">
-                <img
-                  class="img-fluid w-100"
-                  src="images/donna_nua.jpg"
-                  alt="Donna Nua"
-                />
-                <a href="#!">
-                  <div class="mask">
-                    <img class="img-fluid w-100" src="images/donna_nua.jpg" />
-                    <div class="mask rgba-black-slight"></div>
-                  </div>
-                </a>
-              </div>
-
               <div class="card-body text-center">
                 <h5>JUQUINHA ESPRESSO</h5>
                 <p class="small text-muted text-uppercase mb-2">
                   Miško uogos. Karamelė. Vyniška.
                 </p>
+                <img
+                  class=""
+                  src="images/donna_nua.jpg"
+                  alt="Donna Nua"
+                />
                 <hr />
                 <h6 class="mb-3">
                   <span class="text-grey">€13,45</span>
@@ -259,25 +241,16 @@
             <!-- Card -->
             <!-- Card -->
             <div class="card col-sm-4">
-              <div class="view zoom overlay">
-                <img
-                  class="img-fluid w-100"
-                  src="images/donna_nua.jpg"
-                  alt="Donna Nua"
-                />
-                <a href="#!">
-                  <div class="mask">
-                    <img class="img-fluid w-100" src="images/donna_nua.jpg" />
-                    <div class="mask rgba-black-slight"></div>
-                  </div>
-                </a>
-              </div>
-
               <div class="card-body text-center">
                 <h5>SABOROS</h5>
                 <p class="small text-muted text-uppercase mb-2">
                   Vaisiška karamelė. Smėlingas tirštumas.
                 </p>
+                <img
+                  class=""
+                  src="images/donna_nua.jpg"
+                  alt="Donna Nua"
+                />
                 <hr />
                 <h6 class="mb-3">
                   <span class="text-grey">€16,99</span>

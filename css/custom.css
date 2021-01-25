@@ -5,3 +5,31 @@ div .logo {
 .footer_section {
   padding: 50px 0;
 }
+
+.card img {
+  width: 50%;
+}
+
+#filter-form div {
+  line-height: 30px;
+  border-radius: 5px;
+  width: 100%;
+}
+
+#search-form {
+  display: flex;
+}
+
+#search-form input {
+  line-height: 30px;
+  border-radius: 5px 0 0 5px;
+}
+
+#search-form button {
+  padding: 10px;
+  border-radius: 0 5px 5px 0;
+}
+
+#search-form button:hover {
+  background: rgb(204, 152, 74);
+}
