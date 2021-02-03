@@ -33,3 +33,15 @@ div .logo {
 #search-form button:hover {
   background: rgb(204, 152, 74);
 }
+
+.orange {
+  color: #f76d37;
+}
+
+.border-orange {
+  border: 1px solid #f76d37;
+}
+
+#p-after-h1 {
+  margin-top: 0;
+}
