@@ -58,3 +58,31 @@ div .logo {
 #answer-coffe-btn:hover {
   color: white;
 }
+
+/* sorting css */
+.order1 {
+  order: 1;
+}
+.order2 {
+  order: 2;
+}
+.order3 {
+  order: 3;
+}
+.order4 {
+  order: 4;
+}
+.order5 {
+  order: 5;
+}
+.order6 {
+  order: 6;
+}
+
+.flex-min-max {
+  flex-direction: row;
+}
+
+.flex-max-min {
+  flex-direction: row-reverse;
+}
