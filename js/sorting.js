@@ -26,6 +26,7 @@ function sortMaxMin() {
    card6.classList.remove("order6")
    card6.classList.add("order1")
 }
+
 function sortMinMax() {
    card1.classList.add("order1")
    card1.classList.remove("order6")

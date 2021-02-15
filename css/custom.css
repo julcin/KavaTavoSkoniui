@@ -78,11 +78,3 @@ div .logo {
 .order6 {
   order: 6;
 }
-
-.flex-min-max {
-  flex-direction: row;
-}
-
-.flex-max-min {
-  flex-direction: row-reverse;
-}
