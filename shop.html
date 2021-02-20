@@ -102,14 +102,16 @@
         <div class="row justify-content-between pt-5">
           <!--search-->
           <div class="col-3">
-            <form id="search-form">
+            <form id="search-form" action="">
               <input
                 type="search"
                 id="search-input"
                 placeholder="Prekių paieška..."
                 class="form-control"
               />
-              <button type="submit"><i class="fa fa-search"></i></button>
+              <button id="search-button" type="submit">
+                <i class="fa fa-search"></i>
+              </button>
             </form>
           </div>
           <!--filter-->
@@ -344,6 +346,7 @@
     <!-- sidebar -->
     <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
     <script src="js/custom.js"></script>
+    <script src="js/searching.js"></script>
     <script src="js/sorting.js"></script>
   </body>
 </html>
