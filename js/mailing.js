@@ -4,8 +4,6 @@
 
 const form = document.querySelector("#mailForm");
 
-console.log(form);
-
 form.addEventListener("submit", function(event) {
   event.preventDefault();
   emailjs.sendForm('service_t8qvdoj', 'template_htafm7b', this).then(function(response) {
