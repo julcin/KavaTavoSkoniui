@@ -95,12 +95,18 @@
       </div>
       <div class="container">
         <div class="row justify-content-center">
-          <form action="">
+          <form id="quizForm" action="">
             <div class="text-center border-orange rounded m-1">
               <p class="h6">
                 1. Kuri savybė geriausiai apibūdina Jūsų mėgstamiausią kavą?
               </p>
-              <input type="radio" id="a1" name="pirmas" value="ketvirta" />
+              <input
+                type="radio"
+                id="a1"
+                name="pirmas"
+                value="ketvirta"
+                required
+              />
               <label for="a1" class="mr-3">Lengvumas (4)</label>
               <input type="radio" id="b1" name="pirmas" value="sesta" />
               <label for="b1" class="mr-3">Tirštumas (6)</label>
@@ -111,7 +117,13 @@
               <p class="h6">
                 2. Kuris žodžių junginys geriausiai apibūdina Jus?
               </p>
-              <input type="radio" id="a2" name="antras" value="ketvirta" />
+              <input
+                type="radio"
+                id="a2"
+                name="antras"
+                value="ketvirta"
+                required
+              />
               <label for="a2" class="mr-3">Subalansuotas ir lengvas (4)</label>
               <input type="radio" id="b2" name="antras" value="penkta" />
               <label for="b2" class="mr-3">Žaismingas (5)</label>
@@ -120,7 +132,13 @@
             </div>
             <div class="text-center border-orange rounded m-1">
               <p class="h6">3. Kurie skoniai Jums labiausiai patinka kavoje?</p>
-              <input type="radio" id="a3" name="trecias" value="penkta" />
+              <input
+                type="radio"
+                id="a3"
+                name="trecias"
+                value="penkta"
+                required
+              />
               <label for="a3" class="mr-3">Miško uogos (5)</label>
               <input type="radio" id="b3" name="trecias" value="sesta" />
               <label for="b3" class="mr-3">Karamelė (6)</label>
@@ -129,7 +147,13 @@
             </div>
             <div class="text-center border-orange rounded m-1">
               <p class="h6">4. Kurios rūšies šokoladą mėgstate?</p>
-              <input type="radio" id="a4" name="ketvirtas" value="trecia" />
+              <input
+                type="radio"
+                id="a4"
+                name="ketvirtas"
+                value="trecia"
+                required
+              />
               <label for="a4" class="mr-3">Nemegstu šokolado (3)</label>
               <input type="radio" id="b4" name="ketvirtas" value="antra" />
               <label for="b4" class="mr-3">Pienišką (2)</label>
@@ -138,7 +162,13 @@
             </div>
             <div class="text-center border-orange rounded m-1">
               <p class="h6">5. Kas geriausiai tinka prie kavos pertraukėlės?</p>
-              <input type="radio" id="a5" name="penktas" value="ketvirta" />
+              <input
+                type="radio"
+                id="a5"
+                name="penktas"
+                value="ketvirta"
+                required
+              />
               <label for="a5" class="mr-3">Tylos akimirka (4)</label>
               <input type="radio" id="b5" name="penktas" value="antra" />
               <label for="b5" class="mr-3">Draugų grupė (2)</label>
@@ -149,7 +179,13 @@
               <p class="h6">
                 6. Kiek puodelių kavos vidutiniškai išgeriate per dieną?
               </p>
-              <input type="radio" id="a6" name="sestas" value="pirma" />
+              <input
+                type="radio"
+                id="a6"
+                name="sestas"
+                value="pirma"
+                required
+              />
               <label for="a6" class="mr-3">0-1 (1)</label>
               <input type="radio" id="b6" name="sestas" value="antra" />
               <label for="b6" class="mr-3">2-3 (2)</label>
@@ -163,20 +199,7 @@
             </div>
           </form>
         </div>
-        <div class="p-4" id="answer-block">
-          <div>
-            <p class="h6 text-center">
-              Jums Labiausiai tinka
-              <span id="answer-coffe">DONNA NUA</span> kava! Kavą galite įsigyti
-              mūsų parduotuvėje:
-            </p>
-          </div>
-          <div class="text-center">
-            <a id="answer-coffe-btn" href="shop.html" class="btn" role="button"
-              >Parduotuvė</a
-            >
-          </div>
-        </div>
+        <div class="p-4" id="answer-block"></div>
       </div>
     </div>
     <!--quiz section end -->
@@ -267,5 +290,6 @@
     <!-- sidebar -->
     <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
     <script src="js/custom.js"></script>
+    <script src="js/quiz.js"></script>
   </body>
 </html>
